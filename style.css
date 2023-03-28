@@ -1,0 +1,134 @@
+@import url('https://fonts;googleapis.com/css?family=Pacifico');
+@import url('https://fonts;googleapis.com/css?family=Oregano');
+@import url('https://fonts;googleapis.com/css?family=Anaheim');
+@import url('https://fonts.googleapis.com/css?family=Thasadith');
+@import url('https://fonts.googleapis.com/css?family=Cinzel:700');
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1 {
+  margin: 5px auto 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.texto1{
+  font-size: 80px;
+    font-family: 'Thasadith', sans-serif;
+  text-align: center; 
+  color: #fff;
+}
+
+.texto2{
+  font-size: 44px;
+  width:260px;
+  height:65px;
+  border:solid 2px;
+  border-color: #C125A4;
+  border-radius:10px;
+  text-align: center; 
+  font-family: 'Cinzel', sans-serif;
+  color: #fff;
+}
+
+.texto3{
+  font-size: 44px;
+  width:260px;
+  height:65px;
+  border:solid 2px;
+  border-color: #07B20E;
+  border-radius:10px;
+  text-align: center; 
+  font-family: 'Cinzel', sans-serif;
+  color: #fff;
+
+}
+
+.texto4{
+  font-size: 44px;
+  width:260px;
+  height:65px;
+  border:solid 2px;
+  border-color: #0782B2;
+  border-radius:10px;
+  text-align: center; 
+  font-family: 'Cinzel', sans-serif;
+  color: #fff;
+
+}
+
+
+
+.menu{
+  width: all;
+  padding-top: 5px;
+  padding-bottom: 2px;
+
+}
+.nav {
+  width: 380px;
+  margin: 0 auto;
+  background: #3F3F3F;
+  color: #f0f0f0;
+}
+.nav a {
+  display: block;
+  text-decoration: none;
+  padding: 0 16px;
+  color: #fff;
+  line-height: inherit;
+  cursor: pointer;
+}
+.nav__menu {
+  line-height: 45px;
+  text-decoration: none;
+  font-weight: 700;
+  display: inline-block;
+  text-transform: uppercase;
+}
+.nav__menu-item {
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+}
+.nav__menu-item:hover {
+  background-color: #555555;
+  display: inline-block;
+  text-decoration: none;
+}
+.nav__menu-item:hover .nav__submenu {
+  display: block;
+  display: inline-block;
+  text-decoration: none;
+}
+.nav__submenu {
+  font-weight: 300;
+  text-transform: none;
+  display: none;
+  position: absolute;
+  width: 220px;
+  background-color: #9b59b6;
+}
+.nav__submenu-item:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
